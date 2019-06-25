@@ -14,6 +14,10 @@ def hopper
           :known_for => "Unix",
           :languages => ["C"]
         }
+				:yukihiro_matsumoto => {
+				  :known_for => "Ruby",
+				   :languages => ["LISP", "C"]
+				}
      }
 		#  binding.pry
 		programmer_hash[:grace_hopper]
