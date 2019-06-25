@@ -14,10 +14,10 @@ def hopper
           :known_for => "Unix",
           :languages => ["C"]
         }
-				:yukihiro_matsumoto => {
-				  :known_for => "Ruby",
-				   :languages => ["LISP", "C"]
-				}
+				# :yukihiro_matsumoto => {
+				#   :known_for => "Ruby",
+				#    :languages => ["LISP", "C"]
+				# }
      }
 		#  binding.pry
 		programmer_hash[:grace_hopper]
@@ -73,7 +73,11 @@ def adding_matz
 
 	programmer_hash =
  		{
-        :grace_hopper => {
+			:yukihiro_matsumoto => {
+				:known_for => "Ruby",
+				 :languages => ["LISP", "C"]
+		    }
+				:grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
         },
