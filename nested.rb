@@ -16,7 +16,7 @@ def hopper
         }
      }
 		#  binding.pry
-		puts programmer_hash[:grace_hopper]
+		programmer_hash[:grace_hopper]
 
 end
 
